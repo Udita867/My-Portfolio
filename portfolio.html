@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<style>
+    body{
+        background-image:url("backgroundforport.jpg");
+        margin:0;
+    }
+
+    .mainbar{
+        height:auto;
+        width:100%;
+        background-color: white;
+        opacity: 60%;
+        padding-bottom:10px;
+    }
+
+    .navbar{
+        display:grid;
+        grid-template-columns: 33% 33% 33%;
+        font-weight: 700;
+        font-family:'Segoe UI';
+        margin-left:80%;
+        text-align: center;
+    }
+
+    
+
+    .part1{
+        height:400px;
+        width:300px;
+        margin-left:50px;
+        background-color: aliceblue;
+    }
+
+    .part1 img{
+        height: 100%;
+        width:100%;
+    }
+
+    .part2{
+        height:400px;
+        width:1000px;
+        margin-left:60px;
+        background-color: aliceblue;
+        justify-content: center;
+        align-content: center;
+        overflow-y:scroll;
+    }
+
+    .navclick{
+        align-items:start;
+        display:none;
+        margin-left:220px;
+    }
+    .navclick:hover{
+        display:block;
+    }
+    .navitems:hover+.navclick{
+        display:block;
+    }
+    
+    .navclickitems{
+        text-align: left;
+        color:rgb(2, 2, 2);
+        margin:5px;
+    }
+    .navclickitems:hover{
+        background-color: rgb(254, 255, 255);
+        padding:10px;
+        
+    }
+
+    .maindiv{
+        display:grid;
+        grid-template-columns: 25% 75%;
+        margin:30px;
+    }
+
+    #element1{
+        width:700px;
+    }
+    
+    .part2elements{
+        margin:70px;
+        margin-left:20px;
+        
+    }
+
+    #p1{
+        color:rgb(28, 131, 175);
+        font-size: 110%;
+    }
+
+    .p2{
+        color:rgb(28, 131, 175);
+        font-size: 80%;
+    }
+
+    .projects{
+        font-weight: 600;
+        color:rgb(9, 138, 193);
+        font-family: Segoi UI; 
+        border-width:2px; 
+        border-style: solid; 
+        border-color: rgb(9, 138, 193); 
+        border-radius:5px; 
+        display:grid; 
+        grid-template-columns: 20% 80%;
+        padding:50px;
+    }
+
+    .resume{
+        margin-left:100px;
+        opacity:80%;
+        border-radius: 30px;
+        border-color: rgb(9, 138, 193);;
+        font-weight: 800;
+        font-size:120% ;
+        font-family: 'Times New Roman';
+        background-color: aliceblue;
+        height:30px;
+        width:200px;
+        padding:5px;
+        text-align: center;
+       
+    }
+
+    .resume a{
+        color:rgb(6, 70, 97);
+    }
+
+    .contact{
+        height:auto;
+        margin-top:20px;
+        background-color:aliceblue;
+        opacity:70%;
+        display:grid;
+        grid-template-columns: 33% 33% 33%;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        padding-left:180px;
+
+    }
+
+    .contact2{
+        height:auto;
+        background:transparent;
+        width:800px;
+        border-radius: 100px;
+        margin-left:120px;
+        display:grid;
+        grid-template-columns: 33% 33% 33%;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        padding-left:100px;
+    }
+
+    .contactelements{
+        margin:15px;
+        padding-left:20px;
+    }
+
+    .contactelements a{
+        color:rgb(5, 107, 151);
+    }
+
+</style>
+
+<body>
+    <div class="mainbar">
+        <nav class="navbar">
+            <section class="navitems"><a href="portfolio.html" style="color:rgb(3, 90, 127); text-decoration: none;">HOME |</a></section>
+            <section class="navitems"><a href="#growth" style="color:rgb(4, 78, 110); text-decoration: none;">GROWTH |</a></section> 
+            <section class="navitems" style="color:rgb(4, 88, 123);">CONTACT</section> 
+            <div class="navclick">
+                <div><a class="navclickitems" href="https://mail.google.com/mail/">Email</a></div>
+                <div><a class="navclickitems" href="https://github.com/Udita867">GitHub</a></div>
+                <div><a class="navclickitems" href="https://linkedin.com/in/udita-raghav-05922a262">LinkedIn</a></div>
+
+            </div>
+            
+           
+        </nav>
+    </div>
+    
+    <div class="maindiv">
+        <div class="part1"><img src="profile_image.jpg"></div>
+        
+        <div class="part2">
+            
+            <div class="part2elements"><div style="font-weight: 400;color:rgb(9, 138, 193);">INTRODUCTION</div> <div style="font-style:Segoi UI; font-weight: 700; font-size:130%;color:rgb(9, 138, 193);" >WEB DEVELOPER | UI/UX DESIGNER</div> </div>
+            <div class="part2elements" id="element1"><p id="p1">I am a positive, enthusiastic, and competent web developer. Over the years, I have built up a diverse range of skills, qualities, and attributes that guarantee I will perform highly in this role. I have extensive experience working both alone and as part of a team on often time-sensitive, challenging web development projects that require outstanding creative and technical capabilities and the ability to ensure all work is optimized across a wide range of platforms. I take my work as a web developer seriously, and this means I always ensure my skills are kept up to date within this rapidly changing industry.</p></div>
+            <div id="growth" class="part2elements" style="font-weight: 600;color:rgb(9, 138, 193); font-size: 120%; font-family: Segoi UI;">PROJECTS<br><br><br>
+                <div class="projects">
+                    <div><a href="https://linkedin.com/in/udita-raghav-05922a262"><img src="image.png" style="height:100px; width:100px; margin-left: 20px;"></a></div>
+                    <div><p class="p2">HnS is a website where you can purchase a wide variety of gifts online to surprise your loved ones. The platform offers delivery services to many countries, connecting you with the world from the comfort of your own home.</p></div>
+                </div>
+            </div>
+            <div class="part2elements" style="font-weight: 600;color:rgb(9, 138, 193); font-size: 120%; font-family: Segoi UI;">MY SKILLS<br><br><img src="chart.jpg" style="height:200px; width:600px;"></div>
+            
+            
+            <div class="part2elements"></div>
+            <div class="part2elements"></div>
+
+        </div>
+
+    </div>
+
+    <div class="resume"><a href="UDITA_RAGHAV_resume.pdf" download>Download Resume</a></div>
+
+    <div class="contact">
+        <div class="contact2">
+            <div class="contactelements"><a href="https://mail.google.com/mail/"><i class="fa-solid fa-envelope fa-9x"></i></a></div>
+            <div class="contactelements"><a href="https://www.instagram.com/udita_raghav_01?igsh=MWZvNGM0azB5eGhwNw=="><i class="fa-brands fa-instagram fa-9x"></i></a></div>
+            <div class="contactelements"><a href="https://github.com/Udita867"><i class="fa-brands fa-github fa-9x"></i></a></div>
+
+        </div>
+        
+    </div>
+
+    
+
+</body>
+</html>
